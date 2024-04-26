@@ -1,0 +1,81 @@
+@import '../../styles/variables';
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 15px;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+}
+
+.input {
+  flex: 1;
+  max-width: 220px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+
+  &Container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  }
+}
+
+.label {
+  // font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.genderContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.genderHeading {
+  // font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.radioLabel {
+  flex: 1;
+  padding: 5px;
+}
+
+.radioContainer {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.error {
+  color: crimson;
+  padding: 5px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  border: 3px solid;
+}
+
+.btn {
+  border: 1px solid black;
+  padding: 10px 20px;
+  border-radius: 10px;
+  
+  // background-color: $main-bg;
+  // background-color: ;
+
+  &Container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+}
+

@@ -1,0 +1,8 @@
+@import '../../styles/templates';
+
+.container {
+  @extend %container;
+  border: 5px solid black;
+  background-color: darkgoldenrod;
+  font-size: 1.3rem;
+}

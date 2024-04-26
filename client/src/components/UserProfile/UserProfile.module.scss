@@ -1,0 +1,64 @@
+@import '../../styles/templates';
+
+$avatarSize: 200px;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.heading {
+  @extend %mainHeading;
+}
+
+.subheading {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.imgWrapper {
+  position: relative;
+  width: $avatarSize;
+  height: $avatarSize;
+  border-radius: 50%;
+  align-self: center;
+  overflow: hidden;
+
+  .img {
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    inset: 0;
+  }
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  &Heading {
+    font-size: 1.75rem;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  &List {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
+.listItem {
+
+}
+
+.detailText {
+
+  &Bold {
+    font-weight: bold;
+  }
+}

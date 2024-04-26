@@ -1,0 +1,25 @@
+Зробити наступні компоненти з базовою стилізацією:
+  UserProfile - відображає профіль користувача
+    користувач має наступну структуру:
+      id: ???
+      firstName: string
+      lastName: string
+      imgSrc: string(URL)
+      email: string
+      password: string
+      isMale: bool
+  ProfilePage - сторінка цього компонента
+  Header - компонент з навігацією по сайту
+  * Зробити сторінку реєстрації користувача з формою реєстрації БЕЗ картинки
+  (Formik, yup)
+  
+// 
+Зробити базовий сервер на експресі з CRUD користувача
+ користувач має наступну структуру:
+      id: ???
+      firstName: string
+      lastName: string
+      imgSrc: string(URL)
+      email: string
+      password: string
+      isMale: bool
